@@ -89,7 +89,7 @@ Now the tables should be connected using relationships. The benefits of this pro
 Under the Model View in Power BI, fact tables are connected to dimension tables using many-to-one (*:1) relationship with the key column selected.
 In many-to-one or one-to-many type of relationship, many instances of a value in a column are related to only one unique corresponding instance in another column.
 It describes the directionality between fact and dimension table.
-![Relationship connections](E:\GitHub\investment-portfolio-management\report\screenshots\model_view.png)
+![Relationship connections](screenshots/model_view.png)
 
 Using DAX (Data Analysis Expressions), custom columns and measures are created:
 ```text
@@ -179,9 +179,9 @@ The report consists of two pages:
   * The Overview page contains a page navigation button called __Performance__ that helps to navigate to the __Stock Performance__ page.
 
 
-![Stocks view](E:\GitHub\investment-portfolio-management\report\screenshots\stock_visual.png)
-![Stock-Type view](E:\GitHub\investment-portfolio-management\report\screenshots\stock_type_visual.png)
-![Stock Performance Chart](E:\GitHub\investment-portfolio-management\report\screenshots\stock_performance.png)
+![Stocks view](screenshots/stock_visual.png)
+![Stock-Type view](screenshots/stock_type_visual.png)
+![Stock Performance Chart](screenshots/stock_performance.png)
 
 ## Conclusion
 
